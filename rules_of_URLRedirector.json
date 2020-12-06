@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "description": "加快谷歌翻译",
+      "origin": "https://www.google.com/js/bg/(.*).js",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "https://www.google.cn/js/bg/$1.js",
+      "example": "",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    },
+    {
+      "description": "加快谷歌人机验证",
+      "origin": "www.google.com/recaptcha",
+      "exclude": "",
+      "methods": [],
+      "types": [],
+      "target": "recaptcha.net/recaptcha",
+      "example": "",
+      "enable": true,
+      "process": "",
+      "_originRe": {}
+    }
+  ]
+}
